@@ -6,15 +6,14 @@
 27(0,0,1) 90(0,1,1)
 26(1,0,1) 55(1,1,1)*/
 
-int[,,] arrayNumbers = new int[2,2,2];
+int[,,] arrayNumbers = new int[2, 2, 2];
 
-int[] temp = { 11, 22, 33, 44, 55, 66, 77, 88};
+int[] temp = { 11, 22, 33, 44, 55, 66, 77, 88 };
 int b = 0;
 for (int i = 0; i < arrayNumbers.GetLength(0); i++)
 {
     for (int j = 0; j < arrayNumbers.GetLength(1); j++)
     {
-       
         for (int a = 0; a < arrayNumbers.GetLength(2); a++)
         {
             arrayNumbers[i, j, a] = temp[b];
